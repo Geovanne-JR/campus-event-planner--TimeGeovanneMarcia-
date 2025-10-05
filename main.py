@@ -1,3 +1,5 @@
+print ("Ola mundo")
+
 from datetime import datetime
 
 listaEventos = []
@@ -63,5 +65,3 @@ def removerEvento(listaEventos, nomeDeletar):
         print(f"Evento '{nomeDeletar}' removido com sucesso!")
     else:
         print(f"Nenhum evento encontrado com o nome '{nomeDeletar}'.")
-        
-                
